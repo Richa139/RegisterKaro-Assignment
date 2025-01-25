@@ -1,0 +1,40 @@
+.custom-bg-blue {
+  background-color: #011b5b;
+}
+
+.custom-bg-light {
+  background-color: #f8f9fa;
+}
+
+.custom-hover-gray:hover {
+  color: #9ca3af;
+}
+
+.text-secondary {
+  color: #0d6efd !important;
+}
+
+.custom-btn-yellow {
+  background-color: #ffc107;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+}
+
+.custom-btn-yellow:hover {
+  background-color: #e0a800;
+  transition: background-color 0.3s ease;
+}
+
+.custom-icon-white {
+  color: white;
+  font-size: 1.5rem;
+}
+.custom-heading-yellow {
+  color: #ffa229;
+}
