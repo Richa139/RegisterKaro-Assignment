@@ -12,40 +12,43 @@ function Header() {
   return (
     <>
       {/* Blue Background Section for Contact Info */}
-      <div className="text-white py-2" style={{ background: "#1C4670" }}>
-        <div className=" d-flex justify-content-end align-items-center flex-wrap">
-          {/* Email Section */}
-          <a href="mailto:contact@example.com" className="text-white d-flex align-items-center fs-7 mb-2 mb-sm-0">
-            <FaEnvelope className="mr-2" />
-            contact@example.com
-          </a>
+      <div className="text-white py-2 d-none d-sm-flex" style={{ background: "#1C4670" }}>
+  <div className="d-flex justify-content-end align-items-center flex-wrap w-100">
+    {/* Email Section */}
+    <a href="mailto:contact@example.com" className="text-white d-flex align-items-center fs-7 mb-2 mb-sm-0">
+      <FaEnvelope className="mr-2" />
+      contact@example.com
+    </a>
 
-          {/* Divider between Email and Phone */}
-          <span className="text-white mx-3 fs-7 d-none d-sm-inline-block">|</span>
+    {/* Divider between Email and Phone */}
+    <span className="text-white mx-3 fs-7 d-none d-sm-inline-block">|</span>
 
-          {/* Phone Number Section */}
-          <a href="tel:+1234567890" className="text-white d-flex align-items-center fs-7 mb-2 mb-sm-0">
-            <FaPhoneAlt className="mr-2" />
-            +123 456 7890
-          </a>
+    {/* Phone Number Section */}
+    <a href="tel:+1234567890" className="text-white d-flex align-items-center fs-7 mb-2 mb-sm-0">
+      <FaPhoneAlt className="mr-2" />
+      +123 456 7890
+    </a>
 
-          {/* Divider between Phone and Social Media */}
-          <span className="text-white mx-3 fs-7 d-none d-sm-inline-block">|</span>
+    {/* Divider between Phone and Social Media */}
+    <span className="text-white mx-3 fs-7 d-none d-sm-inline-block">|</span>
 
-          {/* Social Media Icons */}
-          <div className="d-flex align-items-center">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
-              <FaFacebook />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
-              <FaTwitter />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
-              <FaLinkedin />
-            </a>
-          </div>
-        </div>
-      </div>
+    {/* Social Media Icons */}
+    <div className="d-flex align-items-center">
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+        <FaFacebook />
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+        <FaTwitter />
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+        <FaLinkedin />
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
 
       {/* Main Header Section */}
       <header className="py-3 shadow w-100">
